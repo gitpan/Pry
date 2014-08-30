@@ -55,7 +55,7 @@
    "provides" : {
       "Pry" : {
          "file" : "lib/Pry.pm",
-         "version" : "0.001_000"
+         "version" : "0.001_001"
       }
    },
    "release_status" : "testing",
@@ -74,5 +74,5 @@
          "web" : "https://github.com/tobyink/p5-pry"
       }
    },
-   "version" : "0.001_000"
+   "version" : "0.001_001"
 }

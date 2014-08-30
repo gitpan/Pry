@@ -6,4 +6,9 @@ Home page:    <https://metacpan.org/release/Pry>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Pry>
 Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
 
-0.001_000	2014-08-30	Initial release
+0.001_001	2014-08-30
+
+ - Improved chatting.
+ - Prevent Pry from being re-invoked from within the REPL.
+
+0.001_000	2014-08-30	Preview release
