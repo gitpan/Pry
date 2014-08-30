@@ -25,7 +25,7 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Pry";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_001>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_001>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-002000>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-pry>;
@@ -57,6 +57,16 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Pry-0.001_001.tar.gz>;
 	doap:revision        "0.001_001"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Pry/v_0-002000>
+	a                    doap:Version;
+	rdfs:label           "First release";
+	dc:identifier        "Pry-0.002000"^^xsd:string;
+	dc:issued            "2014-08-30"^^xsd:date;
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Pry-0.002000.tar.gz>;
+	doap:revision        "0.002000"^^xsd:string;
+	rdfs:comment         "No functional changes".
 
 <http://purl.org/NET/cpan-uri/person/tobyink>
 	a                    foaf:Person;

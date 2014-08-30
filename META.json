@@ -55,10 +55,10 @@
    "provides" : {
       "Pry" : {
          "file" : "lib/Pry.pm",
-         "version" : "0.001_001"
+         "version" : "0.002000"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "X_identifier" : "http://purl.org/NET/cpan-uri/dist/Pry/project",
       "bugtracker" : {
@@ -74,5 +74,5 @@
          "web" : "https://github.com/tobyink/p5-pry"
       }
    },
-   "version" : "0.001_001"
+   "version" : "0.002000"
 }

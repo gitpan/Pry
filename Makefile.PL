@@ -31,8 +31,8 @@ my $meta = {
                                      },
                         test      => { requires => { "Test::More" => 0.96 } },
                       },
-  "provides"       => { Pry => { file => "lib/Pry.pm", version => "0.001_001" } },
-  "release_status" => "testing",
+  "provides"       => { Pry => { file => "lib/Pry.pm", version => "0.002000" } },
+  "release_status" => "stable",
   "resources"      => {
                         bugtracker   => { web => "http://rt.cpan.org/Dist/Display.html?Queue=Pry" },
                         homepage     => "https://metacpan.org/release/Pry",
@@ -44,7 +44,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Pry/project",
                       },
-  "version"        => "0.001_001",
+  "version"        => "0.002000",
 };
 
 my %dynamic_config;

@@ -26,7 +26,7 @@ optional_features: {}
 provides:
   Pry:
     file: lib/Pry.pm
-    version: 0.001_001
+    version: '0.002000'
 requires:
   Devel::StackTrace: '0'
   Exporter::Shiny: '0'
@@ -40,4 +40,4 @@ resources:
   homepage: https://metacpan.org/release/Pry
   license: http://dev.perl.org/licenses/
   repository: git://github.com/tobyink/p5-pry.git
-version: 0.001_001
+version: '0.002000'
