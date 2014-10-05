@@ -5,9 +5,9 @@ my $EUMM = eval( $ExtUtils::MakeMaker::VERSION );
 
 my $meta = {
   "abstract"       => "intrude on your code",
-  "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>", "unknown"],
+  "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 1,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.016, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.023, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -31,7 +31,7 @@ my $meta = {
                                      },
                         test      => { requires => { "Test::More" => 0.96 } },
                       },
-  "provides"       => { Pry => { file => "lib/Pry.pm", version => "0.002000" } },
+  "provides"       => { Pry => { file => "lib/Pry.pm", version => "0.003000" } },
   "release_status" => "stable",
   "resources"      => {
                         bugtracker   => { web => "http://rt.cpan.org/Dist/Display.html?Queue=Pry" },
@@ -42,9 +42,9 @@ my $meta = {
                                           url  => "git://github.com/tobyink/p5-pry.git",
                                           web  => "https://github.com/tobyink/p5-pry",
                                         },
-                        X_identifier => "http://purl.org/NET/cpan-uri/dist/Pry/project",
+                        x_identifier => "http://purl.org/NET/cpan-uri/dist/Pry/project",
                       },
-  "version"        => "0.002000",
+  "version"        => "0.003000",
 };
 
 my %dynamic_config;
