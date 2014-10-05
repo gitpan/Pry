@@ -25,7 +25,7 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Pry";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_001>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-002000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-003000>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-001_001>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-002000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-003000>, <http://purl.org/NET/cpan-uri/dist/Pry/v_0-003001>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-pry>;
@@ -87,6 +87,20 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Pry-0.003000.tar.gz>;
 	doap:revision        "0.003000"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Pry/v_0-003001>
+	a                    doap:Version;
+	dc:identifier        "Pry-0.003001"^^xsd:string;
+	dc:issued            "2014-10-05"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Documentation;
+			rdfs:label "Promote the 'Package Variable' heading to =head2.";
+		];
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Pry-0.003001.tar.gz>;
+	doap:revision        "0.003001"^^xsd:string.
 
 <http://purl.org/NET/cpan-uri/person/tobyink>
 	a                    foaf:Person;

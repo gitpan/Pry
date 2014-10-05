@@ -53,7 +53,7 @@ DESCRIPTION
         Dumps variables (which must exist somewhere in the `Pry::Lexicals`
         hashref).
 
-   Package Variable
+  Package Variable
     $Pry::Dumper
         Decides the backend dumper implementation used by `Pry::Dump()`. Valid
         values are "Data::Dump" and "Data::Dumper".

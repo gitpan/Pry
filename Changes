@@ -6,6 +6,11 @@ Home page:    <https://metacpan.org/release/Pry>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Pry>
 Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
 
+0.003001	2014-10-05
+
+ [ Documentation ]
+ - Promote the 'Package Variable' heading to =head2.
+
 0.003000	2014-10-05
 
  - Include `our` variables as well as `my`.

@@ -54,7 +54,7 @@
    "provides" : {
       "Pry" : {
          "file" : "lib/Pry.pm",
-         "version" : "0.003000"
+         "version" : "0.003001"
       }
    },
    "release_status" : "stable",
@@ -73,5 +73,5 @@
       },
       "x_identifier" : "http://purl.org/NET/cpan-uri/dist/Pry/project"
    },
-   "version" : "0.003000"
+   "version" : "0.003001"
 }
